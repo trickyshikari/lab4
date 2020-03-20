@@ -1,0 +1,167 @@
+html {
+	min-height: 100%;
+	background: linear-gradient(to bottom, #FFC900, #BFA130,
+	 #A68200, #FFD640, #FFE173);
+	font-family: Calibri;
+	font-size: 18px;
+	margin: 0;
+}
+
+body {
+	color: white;
+	line-height: 1.25;
+}
+
+nav {
+	width: 60%;
+	margin: 0 auto;
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav ul li {
+	display: inline-block;
+}
+
+nav {
+	width: 100%;
+	padding-top: 3px;
+	padding: 15px 0;
+	text-align: center;
+	background-color: #A68200;
+}
+
+nav ul {
+	font-family: Arial;
+	list-style: none;
+	padding: 3px;
+	margin: 0;
+
+}
+
+nav ul li {
+    margin-left: -.36em;
+	padding: 15px 35px;
+	color: white;
+	display: inline;
+	background-color: #A68200;
+}
+
+
+nav li.index:active {
+	background: linear-gradient(to bottom, #A68200, #FFD640);
+	border-bottom: 3px inset FFC900;
+}
+
+nav li.rozklad:active {
+	background: linear-gradient(to top, #A68200, #FFD640);
+	border-top: 3px inset #FFE173;
+}
+
+nav li.photo:active {
+	background: linear-gradient(to bottom, #A68200, #FFD640);
+	border-bottom: 3px inset FFC900;
+}
+
+nav li.news:active {
+	background: linear-gradient(to top, #A68200, #FFD640);
+	border-top: 3px inset #FFE173;
+}
+
+section {
+	width: 60%;
+	margin: 0 auto;
+}
+
+p {
+	
+    text-shadow: black 0 0 4px;
+	text-indent: 20px;
+	text-align: justify;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	
+    text-shadow: black 0 0 4px;
+	text-align: center;
+}
+
+h1 {
+	font-size: 36px;
+}
+
+h2 {
+	font-size: 32px;
+}
+
+h3 {
+	font-size: 28px;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+header img {
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+
+header p {
+	text-align: center;
+	font-size: 16px;
+}
+
+footer {
+	height: 100%;
+	margin: 0;
+	margin-top: 25px;
+	padding: 25px;
+	background-color: #A68200;
+}
+
+footer p {
+	text-align: center;
+	margin: 0;
+}
+article p {
+	text-align: center;
+}
+
+aside p {
+	text-align: center;
+	margin: 0;
+}
+
+.news article {
+	border: 2px solid black;
+	border-collapse: collapse;
+	margin: -2px 0px;
+	padding: 25px;
+}
+
+
+.main figure {
+	border: 3px solid black;
+	float: left;
+}
+
+
+table {
+	border: 2px solid black;
+	border-collapse: collapse;
+	empty-cells: hide;
+}
+
+tr, td, th {
+	padding: 8px;
+	text-align: center;
+	border: 1px solid black;
+}
